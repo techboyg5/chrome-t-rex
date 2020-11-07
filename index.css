@@ -9,21 +9,6 @@ html, body {
   height: 100%;
 }
 
-.icon {
-  -webkit-user-select: none;
-  user-select: none;
-  display: inline-block;
-}
-
-.icon-offline {
-  content: -webkit-image-set( url(https://wayou.github.io/t-rex-runner/assets/default_100_percent/100-error-offline.png) 1x, url(https://wayou.github.io/t-rex-runner/assets/default_200_percent/200-error-offline.png) 2x);
-  position: relative;
-}
-
-.hidden {
-  display: none;
-}
-
-#main-content, #offline-resources {
+#main-content, #offline-resources, .hidden {
   display: none;
 }
