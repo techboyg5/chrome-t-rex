@@ -24,48 +24,6 @@ html, body {
   display: none;
 }
 
-
-/* Offline page */
-
-.offline .interstitial-wrapper {
-  color: #2b2b2b;
-  font-size: 1em;
-  line-height: 1.55;
-  margin: 0 auto;
-  max-width: 600px;
-  padding-top: 100px;
-  width: 100%;
-}
-
-.offline .runner-container {
-  height: 150px;
-  max-width: 600px;
-  overflow: hidden;
-  position: absolute;
-  top: 35px;
-  width: 44px;
-}
-
-.offline .runner-canvas {
-  height: 150px;
-  max-width: 600px;
-  opacity: 1;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  z-index: 2;
-}
-
-.offline .controller {
-  background: rgba(247, 247, 247, .1);
-  height: 100vh;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  z-index: 1;
-}
-
 #offline-resources {
   display: none;
 }
@@ -111,9 +69,6 @@ html, body {
 }
 
 @media (min-height: 240px) and (orientation: landscape) {
-  .offline .interstitial-wrapper {
-    margin-bottom: 90px;
-  }
   .icon-offline {
     margin-bottom: 20px;
   }
@@ -122,9 +77,6 @@ html, body {
 @media (max-height: 320px) and (orientation: landscape) {
   .icon-offline {
     margin-bottom: 0;
-  }
-  .offline .runner-container {
-    top: 10px;
   }
 }
 
